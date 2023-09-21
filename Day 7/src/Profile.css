@@ -1,0 +1,42 @@
+/* Profile.css */
+
+/* Style the container */
+div {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  /* Style the heading */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the user info */
+  h2 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  /* Style the text color based on theme */
+  div {
+    color: var(--text-color, black);
+  }
+  
+  /* Add some animation to the component */
+  div {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Center align the component */
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
