@@ -1,0 +1,22 @@
+/* TermsAndConditions.css */
+
+.terms-and-conditions-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+h1, .section {
+    color: #FF5733; /* Orange */
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.back-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}

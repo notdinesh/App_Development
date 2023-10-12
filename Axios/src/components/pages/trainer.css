@@ -1,0 +1,91 @@
+/* trainer.css */
+
+/* Style for the Trainer Details section */
+h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style for the Add Trainer button */
+button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the form */
+form {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+/* Style for the Submit and Cancel buttons */
+form button[type="submit"], form button[type="button"] {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+form button[type="submit"]:hover, form button[type="button"]:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the Search trainers input field */
+input[type="text"][placeholder] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+/* Style for the trainers table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style for Edit and Delete buttons */
+table button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+table button:hover {
+  background-color: #0056b3;
+}

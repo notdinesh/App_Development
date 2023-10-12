@@ -1,0 +1,118 @@
+/* CoursePage.css */
+
+/* Container styles */
+.course-container {
+  margin-top: 5%;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+/* Add Course button styles */
+.add-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+/* Add Form styles */
+.add-form {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Form field styles */
+.form-item {
+  margin-bottom: 15px;
+}
+
+.form-field-input-data {
+  font-weight: bold;
+}
+
+/* Form input styles */
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Form button styles */
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.cancel-button {
+  background-color: #ccc;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cancel-button:hover {
+  background-color: #999;
+}
+
+/* Search bar styles */
+.search-bar {
+  margin-top: 20px;
+}
+
+/* Course table styles */
+.course-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Table header styles */
+.course-table th {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Table row styles */
+.course-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+/* Edit and Delete button styles */
+.edit-button,
+.delete-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: background-color 0.3s;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+  background-color: #0056b3;
+}

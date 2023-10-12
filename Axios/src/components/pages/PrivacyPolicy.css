@@ -1,0 +1,33 @@
+/* PrivacyPolicy.css */
+.privacy-policy-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .policy-section {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    color: #333; /* Text color for sections */
+  }
+  
+  .policy-list {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .policy-list li {
+    list-style: disc;
+  }
+  
+  h1, h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Customize other styles as needed */
